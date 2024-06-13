@@ -1,0 +1,214 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px black;
+  padding: 12px;
+  width: 983px;
+  height: 625px;
+  margin: 14px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+  font-size: 13px;
+}
+.father {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px black;
+  padding: 12px;
+  width: 373px;
+  height: 578px;
+  margin: 6px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+}
+
+.person {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px black;
+  padding: 12px;
+  width: 354px;
+  height: 530px;
+  margin: 6px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+}
+
+.child-1 {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px black;
+  padding: 6px;
+  width: 65px;
+  height: 484px;
+  margin: 5px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+}
+
+.child-2 {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px black;
+  padding: 6px;
+  width: 65px;
+  height: 484px;
+  margin: 5px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+}
+.child-3 {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px black;
+  padding: 6px;
+  width: 65px;
+  height: 484px;
+  margin: 5px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+  flex-direction: column;
+}
+
+button {
+  height: 52px;
+  width: 36px;
+  border: 2px black;
+  padding: 9px;
+  margin: 7px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+  font-size: 24px;
+}
+
+.uncle {
+  border: 2px black;
+  padding: 5px;
+  width: 496px;
+  height: 578px;
+  margin: 6px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+  text-align: center;
+}
+
+.person-1 {
+  border: 2px black;
+  padding: 7px;
+  width: 465px;
+  height: 37px;
+  margin: 5px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+  text-align: center;
+}
+
+.person-2 {
+  border: 2px black;
+  padding: 4px;
+  width: 465px;
+  height: 447px;
+  margin: 6px;
+  border-style: dotted;
+  box-shadow: 0 0 1px gray;
+  text-align: center;
+}
+
+.childs-1 {
+  border: 2px black;
+  padding: 8px;
+  width: 444px;
+  height: 37px;
+  margin: 4px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+  text-align: center;
+}
+
+.person-3 {
+  border: 2px black;
+  padding: 8px;
+  width: 465px;
+  height: 37px;
+  margin: 7px;
+  border-style: dotted;
+  box-shadow: 0 0 1px gray;
+  text-align: center;
+}
+
+.childs-2 {
+  border: 2px black;
+  padding: 4px;
+  width: 443px;
+  height: 322px;
+  margin: 5px;
+  border-style: dotted;
+  box-shadow: 0 0 1px gray;
+  text-align: center;
+}
+
+.childs-3 {
+  border: 2px black;
+  padding: 8px;
+  width: 443px;
+  height: 37px;
+  margin: 6px;
+  border-style: dotted;
+  box-shadow: 0 0 1px gray;
+  text-align: center;
+}
+
+.one {
+  border: 2px black;
+  padding: 8px;
+  width: 419px;
+  height: 87px;
+  margin: 6px;
+  border-style: dotted;
+  box-shadow: 0 0 7px gray;
+  text-align: center;
+  font-size: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffa500d6;
+}
+
+.two {
+  border: 2px black;
+  padding: 8px;
+  width: 419px;
+  height: 87px;
+  margin: 6px;
+  border-style: dotted;
+  box-shadow: 0 0 1px gray;
+  text-align: center;
+  font-size: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+
+.three {
+  border: 2px black;
+  padding: 8px;
+  width: 419px;
+  height: 87px;
+  margin: 6px;
+  border-style: dotted;
+  box-shadow: 0 0 1px gray;
+  text-align: center;
+  font-size: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
